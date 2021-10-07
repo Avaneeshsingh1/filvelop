@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import Fade from 'react-reveal/Fade'
 
 
@@ -29,11 +28,11 @@ const Home1 = () => {
                             
                                 <div class="col-md-6">
                                 <Fade bottom delay={2000}>
-                                    <a href="#" d class="button button-light button-circle">Helped 1000+ Students</a>
+                                    <a href="link" d class="button button-light button-circle">Helped 1000+ Students</a>
                                     <h2  data-delay="200">lorem <span>Ipsum</span><br /> dolor sit amet</h2>
                                      <p class="d-none d-sm-block" data-animate="" data-delay="400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in egestas mi egestas quam. Lectus eget viverra fermentum elit, tortor nec, eleifend. Egestas consequat donec curabitur amet.</p>
                                    
-                                 <a href="#" class="button button-circle button-orange mt-4" data-animate="" data-delay="600">Join Now!</a>
+                                 <a href="link1" class="button button-circle button-orange mt-4" data-animate="" data-delay="600">Join Now!</a>
                                  </Fade>
                                 </div>
                             
@@ -55,7 +54,7 @@ const Home1 = () => {
             </div>
         </div>
 
-        <a href="#" data-scrollto="#content" data-offset="100" class="one-page-arrow dark"><i class="icon-line-arrow-down animated fadeInDown"></i></a>
+        <a href="link3" data-scrollto="#content" data-offset="100" class="one-page-arrow dark"><i class="icon-line-arrow-down animated fadeInDown"></i></a>
 
     </div>
 </section>
@@ -98,8 +97,8 @@ const Home1 = () => {
                                                 </div>
                                             </div>
                                             <div class="row text-center">
-                                                <div class="col-lg-6 col-md-12"><a href="#" class="button button-border button-circle btn-block">Download Brochure</a></div>
-                                                <div class="col-lg-6 col-md-12"><a href="#" class="button button-circle button-orange btn-block">Apply now</a></div>
+                                                <div class="col-lg-6 col-md-12"><a href="t1" class="button button-border button-circle btn-block">Download Brochure</a></div>
+                                                <div class="col-lg-6 col-md-12"><a href="t2" class="button button-circle button-orange btn-block">Apply now</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -309,7 +308,7 @@ const Home1 = () => {
                     <h3>Experience the India’s First of its <span>kind Automated</span> Entrance Applications Platform</h3>
                 </div>
                 <div class="col-12 col-lg-auto mt-4 mt-lg-0">
-                    <a href="#" class="button button-circle button-orange button-large button-rounded m-0">Register Now</a>
+                    <a href="h6" class="button button-circle button-orange button-large button-rounded m-0">Register Now</a>
                 </div>
             </div>
         </div>
@@ -326,7 +325,7 @@ const Home1 = () => {
                         <div class="col-md-4 col-lg-12">
                             <div class="widget clearfix">
 
-                                <img src="asset/img/logo-filvelop.svg" alt="Image" class="Filvelop Logo"/>
+                                <img src="asset/img/logo-filvelop.svg" alt="name" class="Filvelop Logo"/>
 
                                 {/* <!--<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
 
@@ -374,10 +373,10 @@ const Home1 = () => {
                                 <h4>Company</h4>
 
                                 <ul>
-                                    <li><a href="#">Support</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Terms of Service</a></li>
-                                    <li><a href="#">Licensing</a></li>
+                                    <li><a href="l1">Support</a></li>
+                                    <li><a href="l2">Privacy Policy</a></li>
+                                    <li><a href="k3">Terms of Service</a></li>
+                                    <li><a href="g3">Licensing</a></li>
                                 </ul>
 
                             </div>
@@ -391,10 +390,10 @@ const Home1 = () => {
                                 <h4>Support</h4>
 
                                 <ul>
-                                    <li><a href="#">Getting Started</a></li>
-                                    <li><a href="#">Help Center</a></li>
-                                    <li><a href="#">Suggest a Feature</a></li>
-                                    <li><a href="#">Report a bug</a></li>
+                                    <li><a href="m1">Getting Started</a></li>
+                                    <li><a href="m2">Help Center</a></li>
+                                    <li><a href="m4">Suggest a Feature</a></li>
+                                    <li><a href="m5">Report a bug</a></li>
                                 </ul>
 
                             </div>
@@ -408,15 +407,15 @@ const Home1 = () => {
                                 <h4>Follow Us</h4>
 
                                 <div class="d-flex flex-row">
-                                    <a href="#" class="social-icon si-small si-borderless si-facebook">
+                                    <a href="m6" class="social-icon si-small si-borderless si-facebook">
                                         <i class="icon-facebook"/>
                                         <i class="icon-facebook"/>
                                     </a>
-                                    <a href="#" class="social-icon si-small si-borderless si-linkedin">
+                                    <a href="m9" class="social-icon si-small si-borderless si-linkedin">
                                         <i class="icon-linkedin"/>
                                         <i class="fa fa-linkedin-square"/>
                                     </a>
-                                    <a href="#" class="social-icon si-small si-borderless si-twitter">
+                                    <a href="m10" class="social-icon si-small si-borderless si-twitter">
                                         <i class="icon-twitter"></i>
                                         <i class="fa fa-twitter"></i>
                                     </a>

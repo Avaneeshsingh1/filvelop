@@ -58,7 +58,7 @@ export default class Signup extends Component {
                                 </div>
                                 <div class="col-lg-6 col-md-12"></div>
                             </div>
-                            <a href="#" class="button button-circle button-orange mt-4 tab-linker" rel="2">Next</a>
+                            <a href="next.html" class="button button-circle button-orange mt-4 tab-linker" rel="2">Next</a>
                         </div>
                         
                         

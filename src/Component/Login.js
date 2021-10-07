@@ -32,7 +32,7 @@ export default class Login extends Component {
                 </div>
                  <div class="col-md-8 form-group">
                   <button class="button button-circle button-orange button-rounded btn-block m-0" id="login-form-submit" name="login-form-submit" value="login">Login</button>
-                  <a href="#" class="float-right">Forgot Password?</a>
+                  <a href="forget.password" class="float-right">Forgot Password?</a>
                 </div>
 
               </form>
