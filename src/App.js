@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React,{useState} from 'react'
 import './App.css';
+import Home1 from './Home1';
+import About from './Component/About';
+import Discussion from './Component/Discussion ';
+import Colleges from './Component/Colleges';
+import Happening from './Component/Happening';
+import Login from './Component/Login';
+import Signup from './Component/Signup';
+import Header from './Component/Header';
+
 
 function App() {
+  const Loading=(value)=>{
+    console.log(value)
+setScreen(value)
+  }
+  const[screen,setScreen]=useState(0)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <>  
+<Header Loading={Loading}/>
+{(screen===0) && <Home1/>}
+{(screen===1) && <About/>}
+{(screen===2) && <Discussion/>}
+{(screen===4) && <Colleges/>}
+{(screen===3) && <Happening/>}
+{(screen===5) && <Login/>}
+{(screen===6) && <Signup/>}
+     </> 
+      );
 }
 
 export default App;

@@ -1,0 +1,13 @@
+import React from 'react'
+
+const Colleges = () => {
+    return (
+        <div>
+            <h1>College</h1>
+        </div>
+            
+        
+    )
+}
+
+export default Colleges
